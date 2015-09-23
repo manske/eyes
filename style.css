@@ -1,0 +1,28 @@
+#container { 
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+     -webkit-align-items: center;
+   align-items: center;
+    -webkit-justify-content: center;
+   justify-content: center;
+}
+
+#eyes {
+	margin: 150px auto;
+	margin-bottom: 0;
+	display: block;
+	width: 600px;
+	height: 400px;
+}
+
+.eyes {
+	display: inline-block;
+	margin-right: 20px;
+}
+#eyes svg rect {
+	-webkit-transform: translateY(5px);
+}
